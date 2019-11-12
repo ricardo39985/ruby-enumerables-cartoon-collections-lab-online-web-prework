@@ -3,7 +3,7 @@ def roll_call_dwarves(dwarves)# code an argument here
   i = 1
   while i <= dwarves
     puts "#{i}+ " "+#{dwarves}"
-    1+=1
+    i+=1
   end
 end
 
