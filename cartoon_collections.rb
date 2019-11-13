@@ -26,12 +26,10 @@ end
 def find_the_cheese(array_of_strings)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  for j in array_of_strings
-    for i in cheese_types
-      if i == j
-        return i
-      end
+  for i in cheese_types
+    if array_of_strings.include? i
+      return i
     end
-    return nil
   end
+  return nil
 end
