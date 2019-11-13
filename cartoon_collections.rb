@@ -26,8 +26,8 @@ end
 def find_the_cheese(array_of_strings)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  for i in array_of_strings
-    for j in cheese_types
+  for j in array_of_strings
+    for i in cheese_types
       if i == j
         return i
       end
